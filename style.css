@@ -30,7 +30,8 @@ body{
     transition: width 0.5s, height 0.5s;
 }
 .btn span{
-    
+    position: relative;
+    z-index: 1;
 }
 .btn:hover::before{
     width: 300px;
